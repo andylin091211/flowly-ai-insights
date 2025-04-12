@@ -63,9 +63,9 @@ const AppSidebar = () => {
       <SidebarHeader className="p-4">
         <div className="flex items-center space-x-2">
           <div className="h-8 w-8 rounded-full bg-flowly-blue flex items-center justify-center">
-            <span className="text-white font-bold">百</span>
+            <span className="text-white font-bold">流</span>
           </div>
-          <h1 className="text-xl font-bold">百流云数据分析</h1>
+          <h1 className="text-xl font-bold">流程力数据分析</h1>
         </div>
       </SidebarHeader>
       

@@ -16,7 +16,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps) => {
           <header className="h-14 border-b px-4 flex items-center justify-between">
             <div className="flex items-center">
               <SidebarTrigger />
-              <div className="ml-4 text-lg font-medium">百流云数据分析</div>
+              <div className="ml-4 text-lg font-medium">流程力数据分析</div>
             </div>
           </header>
           <main className="flex-1 overflow-auto p-6">

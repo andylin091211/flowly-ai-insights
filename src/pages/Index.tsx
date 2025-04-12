@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -20,9 +19,9 @@ const Index = () => {
       <header className="container mx-auto py-6 px-4 flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <div className="h-8 w-8 rounded-full bg-flowly-blue flex items-center justify-center">
-            <span className="text-white font-bold">百</span>
+            <span className="text-white font-bold">流</span>
           </div>
-          <h1 className="text-xl font-bold">百流云数据分析</h1>
+          <h1 className="text-xl font-bold">流程力数据分析</h1>
         </div>
         <div className="flex items-center space-x-4">
           <Button 
@@ -44,7 +43,7 @@ const Index = () => {
             <span className="flowly-gradient-text">解锁数据的力量</span>
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-lg">
-            百流云数据分析平台让您能够通过简单的对话方式分析复杂数据，创建精美可视化，并获取关键业务洞察
+            流程力数据分析平台让您能够通过简单的对话方式分析复杂数据，创建精美可视化，并获取关键业务洞察
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <Button 
@@ -85,7 +84,7 @@ const Index = () => {
       
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">百流云数据分析的核心功能</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">流程力数据分析的核心功能</h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-sm">
@@ -121,11 +120,11 @@ const Index = () => {
             <div className="mb-4 md:mb-0">
               <div className="flex items-center space-x-2">
                 <div className="h-6 w-6 rounded-full bg-flowly-blue flex items-center justify-center">
-                  <span className="text-white font-bold text-xs">百</span>
+                  <span className="text-white font-bold text-xs">流</span>
                 </div>
-                <h1 className="text-lg font-bold">百流云数据分析</h1>
+                <h1 className="text-lg font-bold">流程力数据分析</h1>
               </div>
-              <p className="text-sm text-gray-500 mt-1">© 2025 百流科技. 保留所有权利</p>
+              <p className="text-sm text-gray-500 mt-1">© 2025 流程力科技. 保留所有权利</p>
             </div>
             
             <div className="flex space-x-6">
