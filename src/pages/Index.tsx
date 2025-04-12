@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, MessageSquare, BarChart, Star } from "lucide-react";
 
 const Index = () => {
   const navigate = useNavigate();
